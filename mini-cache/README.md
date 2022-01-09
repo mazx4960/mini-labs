@@ -1,11 +1,13 @@
 # mini-cache
-[![](https://img.shields.io/badge/Language-Go-E5A505?style=flat-square)]()
+[![](https://img.shields.io/badge/Category-Caching-E5A505?style=flat-square)]() [![](https://img.shields.io/badge/Category-Distributed%20Systems-E5A505?style=flat-square)]() [![](https://img.shields.io/badge/Language-Go-E5A505?style=flat-square)]()
 
 Cache system implemented using the O(1) LFU eviction scheme
 
 ## Description  
 
 A cache system implemented using Go. See [References](#references) for the research paper behind this algorithm. 
+
+Inspired by [memcached](https://github.com/memcached/memcached) and [redis](https://github.com/redis/redis). 
 
 ## Features
 
@@ -22,4 +24,11 @@ A cache system implemented using Go. See [References](#references) for the resea
 
 ## References
 
-- https://www.researchgate.net/publication/355493987_An_O1_algorithm_for_implementing_the_LFU_cache_eviction_scheme
+- [An O(1) algorithm for implementing the LFUcache eviction scheme](https://www.researchgate.net/publication/355493987_An_O1_algorithm_for_implementing_the_LFU_cache_eviction_scheme)
+
+## Similar resources
+
+- [Anti-Caching: A New Approach to
+Database Management System Architecture](https://www.vldb.org/pvldb/vol6/p1942-debrabant.pdf)
+- [A Program Optimization for
+Automatic Database Result Caching](http://adam.chlipala.net/papers/SqlcachePOPL17/SqlcachePOPL17.pdf)
